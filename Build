@@ -1,0 +1,4002 @@
+<?xml version="1.0"?>
+
+-<settings>
+
+
+-<accessibility>
+
+<audiohearing default="true">false</audiohearing>
+
+<audiovisual default="true">false</audiovisual>
+
+<subhearing default="true">false</subhearing>
+
+</accessibility>
+
+
+-<audiocds>
+
+<autoaction default="true">0</autoaction>
+
+<ejectonrip default="true">true</ejectonrip>
+
+<encoder default="true">audioencoder.xbmc.builtin.wav</encoder>
+
+<recordingpath default="true"/>
+
+<trackpathformat default="true">%A/%A - %B/[%N. ][%A - ]%T</trackpathformat>
+
+<usecddb default="true">true</usecddb>
+
+</audiocds>
+
+
+-<audiooutput>
+
+<ac3passthrough default="true">true</ac3passthrough>
+
+<ac3transcode default="true">false</ac3transcode>
+
+<audiodevice default="true">DIRECTSOUND:default</audiodevice>
+
+<channels default="true">1</channels>
+
+<config default="true">2</config>
+
+<dtshdpassthrough default="true">false</dtshdpassthrough>
+
+<dtspassthrough default="true">false</dtspassthrough>
+
+<eac3passthrough default="true">false</eac3passthrough>
+
+<guisoundmode default="true">1</guisoundmode>
+
+<maintainoriginalvolume default="true">true</maintainoriginalvolume>
+
+<passthrough default="true">false</passthrough>
+
+<passthroughdevice default="true">DIRECTSOUND:default</passthroughdevice>
+
+<processquality default="true">30</processquality>
+
+<samplerate default="true">48000</samplerate>
+
+<stereoupmix default="true">false</stereoupmix>
+
+<streamsilence default="true">1</streamsilence>
+
+<truehdpassthrough default="true">false</truehdpassthrough>
+
+</audiooutput>
+
+
+-<cache>
+
+<harddisk default="true">256</harddisk>
+
+</cache>
+
+
+-<cacheaudio>
+
+<dvdrom default="true">256</dvdrom>
+
+<internet default="true">256</internet>
+
+<lan default="true">256</lan>
+
+</cacheaudio>
+
+
+-<cachedvd>
+
+<dvdrom default="true">2048</dvdrom>
+
+<lan default="true">2048</lan>
+
+</cachedvd>
+
+
+-<cacheunknown>
+
+<internet default="true">4096</internet>
+
+</cacheunknown>
+
+
+-<cachevideo>
+
+<dvdrom default="true">2048</dvdrom>
+
+<internet default="true">4096</internet>
+
+<lan default="true">2048</lan>
+
+</cachevideo>
+
+
+-<debug>
+
+<extralogging default="true">true</extralogging>
+
+<screenshotpath default="true"/>
+
+<setextraloglevel default="true">32768</setextraloglevel>
+
+<showloginfo default="true">false</showloginfo>
+
+</debug>
+
+
+-<disc>
+
+<playback default="true">0</playback>
+
+</disc>
+
+
+-<dvds>
+
+<automenu default="true">false</automenu>
+
+<autorun default="true">false</autorun>
+
+<playerregion default="true">0</playerregion>
+
+</dvds>
+
+
+-<epg>
+
+<daystodisplay default="true">3</daystodisplay>
+
+<epgupdate default="true">120</epgupdate>
+
+<hidenoinfoavailable>false</hidenoinfoavailable>
+
+<ignoredbforclient default="true">false</ignoredbforclient>
+
+<preventupdateswhileplayingtv default="true">false</preventupdateswhileplayingtv>
+
+<selectaction default="true">2</selectaction>
+
+</epg>
+
+
+-<filelists>
+
+<allowfiledeletion default="true">false</allowfiledeletion>
+
+<ignorethewhensorting default="true">true</ignorethewhensorting>
+
+<showaddsourcebuttons default="true">true</showaddsourcebuttons>
+
+<showextensions default="true">true</showextensions>
+
+<showhidden default="true">false</showhidden>
+
+<showparentdiritems default="true">true</showparentdiritems>
+
+</filelists>
+
+
+-<general>
+
+<addonbrokenfilter default="true">true</addonbrokenfilter>
+
+<addonforeignfilter default="true">false</addonforeignfilter>
+
+<addonnotifications default="true">true</addonnotifications>
+
+<addonupdates default="true">0</addonupdates>
+
+<systemtotaluptime>2824</systemtotaluptime>
+
+<settinglevel>3</settinglevel>
+
+</general>
+
+
+-<input>
+
+<enablejoystick default="true">true</enablejoystick>
+
+<enablemouse default="true">true</enablemouse>
+
+</input>
+
+
+-<karaoke>
+
+<autopopupselector default="true">false</autopopupselector>
+
+<charset default="true">DEFAULT</charset>
+
+<enabled default="true">false</enabled>
+
+<font default="true">arial.ttf</font>
+
+<fontcolors default="true">0</fontcolors>
+
+<fontheight default="true">36</fontheight>
+
+</karaoke>
+
+
+-<locale>
+
+<audiolanguage default="true">original</audiolanguage>
+
+<charset default="true">DEFAULT</charset>
+
+<country default="true">USA (12h)</country>
+
+<keyboardlayouts default="true">English QWERTY</keyboardlayouts>
+
+<language default="true">resource.language.en_gb</language>
+
+<longdateformat default="true">regional</longdateformat>
+
+<shortdateformat default="true">regional</shortdateformat>
+
+<speedunit default="true">regional</speedunit>
+
+<subtitlelanguage default="true">original</subtitlelanguage>
+
+<temperatureunit default="true">regional</temperatureunit>
+
+<timeformat default="true">regional</timeformat>
+
+<timezone default="true">default</timezone>
+
+<timezonecountry default="true">default</timezonecountry>
+
+<use24hourclock default="true">regional</use24hourclock>
+
+</locale>
+
+
+-<lookandfeel>
+
+<enablerssfeeds default="true">true</enablerssfeeds>
+
+<font>CatboxNeue</font>
+
+<rssedit default="true"/>
+
+<skin>skin.aeon.nox.5</skin>
+
+<skincolors default="true">SKINDEFAULT</skincolors>
+
+<skintheme default="true">SKINDEFAULT</skintheme>
+
+<skinzoom>-2</skinzoom>
+
+<soundskin>resource.uisounds.amber</soundskin>
+
+<startupwindow default="true">10000</startupwindow>
+
+</lookandfeel>
+
+
+-<masterlock>
+
+<maxretries default="true">3</maxretries>
+
+<startuplock default="true">false</startuplock>
+
+</masterlock>
+
+
+-<musicfiles>
+
+<findremotethumbs default="true">true</findremotethumbs>
+
+<librarytrackformat default="true"/>
+
+<librarytrackformatright default="true"/>
+
+<nowplayingtrackformat default="true"/>
+
+<nowplayingtrackformatright default="true"/>
+
+<trackformat default="true">[%N. ]%A - %T</trackformat>
+
+<trackformatright default="true">%D</trackformatright>
+
+<usetags default="true">true</usetags>
+
+</musicfiles>
+
+
+-<musiclibrary>
+
+<albumsscraper default="true">metadata.album.universal</albumsscraper>
+
+<artistsscraper default="true">metadata.artists.universal</artistsscraper>
+
+<backgroundupdate default="true">false</backgroundupdate>
+
+<downloadinfo default="true">false</downloadinfo>
+
+<overridetags default="true">false</overridetags>
+
+<showallitems default="true">true</showallitems>
+
+<showcompilationartists default="true">true</showcompilationartists>
+
+<updateonstartup default="true">false</updateonstartup>
+
+</musiclibrary>
+
+
+-<musicplayer>
+
+<autoplaynextitem default="true">true</autoplaynextitem>
+
+<crossfade default="true">0</crossfade>
+
+<crossfadealbumtracks default="true">true</crossfadealbumtracks>
+
+<queuebydefault default="true">false</queuebydefault>
+
+<replaygainavoidclipping default="true">false</replaygainavoidclipping>
+
+<replaygainnogainpreamp default="true">89</replaygainnogainpreamp>
+
+<replaygainpreamp default="true">89</replaygainpreamp>
+
+<replaygaintype default="true">1</replaygaintype>
+
+<seekdelay default="true">750</seekdelay>
+
+<seeksteps default="true">-60,-30,-10,10,30,60</seeksteps>
+
+<visualisation default="true">visualization.milkdrop</visualisation>
+
+</musicplayer>
+
+
+-<mymusic>
+
+<defaultlibview default="true"/>
+
+<songthumbinvis default="true">false</songthumbinvis>
+
+<startwindow default="true">10501</startwindow>
+
+
+-<playlist>
+
+<repeat>false</repeat>
+
+<shuffle>false</shuffle>
+
+</playlist>
+
+<needsupdate>0</needsupdate>
+
+</mymusic>
+
+
+-<myvideos>
+
+<extractchapterthumbs default="true">true</extractchapterthumbs>
+
+<extractflags default="true">true</extractflags>
+
+<extractthumb default="true">true</extractthumb>
+
+<flatten default="true">false</flatten>
+
+<replacelabels default="true">true</replacelabels>
+
+<selectaction default="true">1</selectaction>
+
+<stackvideos default="true">false</stackvideos>
+
+<watchmodemovies>0</watchmodemovies>
+
+<watchmodetvshows>0</watchmodetvshows>
+
+<watchmodemusicvideos>0</watchmodemusicvideos>
+
+
+-<playlist>
+
+<repeat>false</repeat>
+
+<shuffle>false</shuffle>
+
+</playlist>
+
+<needsupdate>0</needsupdate>
+
+</myvideos>
+
+
+-<network>
+
+<bandwidth default="true">0</bandwidth>
+
+<httpproxypassword default="true"/>
+
+<httpproxyport default="true">8080</httpproxyport>
+
+<httpproxyserver default="true"/>
+
+<httpproxytype default="true">0</httpproxytype>
+
+<httpproxyusername default="true"/>
+
+<usehttpproxy default="true">false</usehttpproxy>
+
+</network>
+
+
+-<pictures>
+
+<displayresolution default="true">14</displayresolution>
+
+<generatethumbs default="true">true</generatethumbs>
+
+<showvideos default="true">true</showvideos>
+
+<useexifrotation default="true">true</useexifrotation>
+
+<usetags default="true">true</usetags>
+
+</pictures>
+
+
+-<powermanagement>
+
+<displaysoff default="true">0</displaysoff>
+
+<shutdownstate default="true">0</shutdownstate>
+
+<shutdowntime default="true">0</shutdowntime>
+
+<wakeonaccess default="true">false</wakeonaccess>
+
+</powermanagement>
+
+
+-<pvrmanager>
+
+<backendchannelorder default="true">true</backendchannelorder>
+
+<enabled>true</enabled>
+
+<hideconnectionlostwarning default="true">false</hideconnectionlostwarning>
+
+<syncchannelgroups default="true">true</syncchannelgroups>
+
+<usebackendchannelnumbers default="true">false</usebackendchannelnumbers>
+
+</pvrmanager>
+
+
+-<pvrmenu>
+
+<closechannelosdonswitch default="true">true</closechannelosdonswitch>
+
+<displaychannelinfo default="true">5</displaychannelinfo>
+
+<iconpath default="true"/>
+
+</pvrmenu>
+
+
+-<pvrparental>
+
+<duration default="true">300</duration>
+
+<enabled default="true">false</enabled>
+
+<pin default="true"/>
+
+</pvrparental>
+
+
+-<pvrplayback>
+
+<channelentrytimeout default="true">0</channelentrytimeout>
+
+<confirmchannelswitch default="true">false</confirmchannelswitch>
+
+<fps default="true">0</fps>
+
+<playminimized default="true">true</playminimized>
+
+<scantime default="true">10</scantime>
+
+<signalquality default="true">true</signalquality>
+
+<startlast default="true">0</startlast>
+
+</pvrplayback>
+
+
+-<pvrpowermanagement>
+
+<backendidletime default="true">15</backendidletime>
+
+<dailywakeup default="true">false</dailywakeup>
+
+<dailywakeuptime default="true">00:00:00</dailywakeuptime>
+
+<enabled default="true">false</enabled>
+
+<prewakeup default="true">15</prewakeup>
+
+<setwakeupcmd default="true"/>
+
+</pvrpowermanagement>
+
+
+-<pvrrecord>
+
+<defaultlifetime default="true">99</defaultlifetime>
+
+<defaultpriority default="true">50</defaultpriority>
+
+<instantrecordtime default="true">120</instantrecordtime>
+
+<marginend default="true">0</marginend>
+
+<marginstart default="true">0</marginstart>
+
+<timernotifications default="true">true</timernotifications>
+
+</pvrrecord>
+
+
+-<scrapers>
+
+<moviesdefault default="true">metadata.themoviedb.org</moviesdefault>
+
+<musicvideosdefault default="true">metadata.musicvideos.theaudiodb.com</musicvideosdefault>
+
+<tvshowsdefault default="true">metadata.tvdb.com</tvshowsdefault>
+
+</scrapers>
+
+
+-<screensaver>
+
+<mode default="true">screensaver.xbmc.builtin.dim</mode>
+
+<time default="true">3</time>
+
+<usedimonpause default="true">true</usedimonpause>
+
+<usemusicvisinstead default="true">true</usemusicvisinstead>
+
+</screensaver>
+
+
+-<services>
+
+<airplay default="true">false</airplay>
+
+<airplayios8compat default="true">true</airplayios8compat>
+
+<airplaypassword default="true"/>
+
+<airplayvolumecontrol default="true">true</airplayvolumecontrol>
+
+<devicename default="true">Kodi</devicename>
+
+<esallinterfaces default="true">false</esallinterfaces>
+
+<escontinuousdelay default="true">25</escontinuousdelay>
+
+<esenabled default="true">true</esenabled>
+
+<esinitialdelay default="true">750</esinitialdelay>
+
+<esmaxclients default="true">20</esmaxclients>
+
+<esport default="true">9777</esport>
+
+<esportrange default="true">10</esportrange>
+
+<upnpannounce default="true">true</upnpannounce>
+
+<upnpcontroller default="true">false</upnpcontroller>
+
+<upnplookforexternalsubtitles default="true">false</upnplookforexternalsubtitles>
+
+<upnprenderer default="true">false</upnprenderer>
+
+<upnpserver default="true">false</upnpserver>
+
+<useairplaypassword default="true">false</useairplaypassword>
+
+<webserver default="true">false</webserver>
+
+<webserverpassword default="true"/>
+
+<webserverport default="true">80</webserverport>
+
+<webserverusername default="true">kodi</webserverusername>
+
+<webskin default="true">webinterface.default</webskin>
+
+<zeroconf default="true">false</zeroconf>
+
+</services>
+
+
+-<slideshow>
+
+<displayeffects default="true">true</displayeffects>
+
+<shuffle default="true">false</shuffle>
+
+<staytime default="true">5</staytime>
+
+</slideshow>
+
+
+-<smb>
+
+<winsserver default="true">0.0.0.0</winsserver>
+
+<workgroup default="true">WORKGROUP</workgroup>
+
+</smb>
+
+
+-<subtitles>
+
+<align default="true">0</align>
+
+<charset default="true">DEFAULT</charset>
+
+<color default="true">1</color>
+
+<custompath default="true"/>
+
+<downloadfirst default="true">false</downloadfirst>
+
+<font default="true">arial.ttf</font>
+
+<height default="true">28</height>
+
+<languages default="true">English</languages>
+
+<movie default="true"/>
+
+<overrideassfonts default="true">false</overrideassfonts>
+
+<parsecaptions default="true">false</parsecaptions>
+
+<pauseonsearch default="true">true</pauseonsearch>
+
+<stereoscopicdepth default="true">0</stereoscopicdepth>
+
+<storagemode default="true">0</storagemode>
+
+<style default="true">1</style>
+
+<tv default="true"/>
+
+</subtitles>
+
+
+-<system>
+
+<playlistspath>special://profile/playlists/</playlistspath>
+
+</system>
+
+
+-<videolibrary>
+
+<actorthumbs default="true">true</actorthumbs>
+
+<backgroundupdate default="true">false</backgroundupdate>
+
+<flattentvshows default="true">1</flattentvshows>
+
+<groupmoviesets default="true">false</groupmoviesets>
+
+<showallitems default="true">true</showallitems>
+
+<showunwatchedplots default="true">true</showunwatchedplots>
+
+<tvshowsincludeallseasonsandspecials default="true">0</tvshowsincludeallseasonsandspecials>
+
+<tvshowsselectfirstunwatcheditem default="true">0</tvshowsselectfirstunwatcheditem>
+
+<updateonstartup>true</updateonstartup>
+
+</videolibrary>
+
+
+-<videoplayer>
+
+<adjustrefreshrate default="true">0</adjustrefreshrate>
+
+<autoplaynextitem default="true">false</autoplaynextitem>
+
+<errorinaspect default="true">0</errorinaspect>
+
+<hqscalers default="true">0</hqscalers>
+
+<pauseafterrefreshchange default="true">0</pauseafterrefreshchange>
+
+<preferdefaultflag default="true">true</preferdefaultflag>
+
+<prefervaapirender default="true">true</prefervaapirender>
+
+<quitstereomodeonstop default="true">true</quitstereomodeonstop>
+
+<rendermethod default="true">0</rendermethod>
+
+<seekdelay default="true">750</seekdelay>
+
+<seeksteps default="true">-600,-300,-180,-60,-30,-10,10,30,60,180,300,600</seeksteps>
+
+<stereoscopicplaybackmode default="true">0</stereoscopicplaybackmode>
+
+<stretch43 default="true">0</stretch43>
+
+<teletextenabled default="true">true</teletextenabled>
+
+<teletextscale default="true">true</teletextscale>
+
+<useamcodec default="true">true</useamcodec>
+
+<usedisplayasclock default="true">false</usedisplayasclock>
+
+<usedxva2 default="true">true</usedxva2>
+
+<useomx default="true">true</useomx>
+
+<useomxplayer default="true">true</useomxplayer>
+
+<usevaapi default="true">true</usevaapi>
+
+<usevaapimpeg2 default="true">true</usevaapimpeg2>
+
+<usevaapimpeg4 default="true">true</usevaapimpeg4>
+
+<usevaapivc1 default="true">true</usevaapivc1>
+
+<usevda default="true">true</usevda>
+
+<usevdpau default="true">true</usevdpau>
+
+<usevdpaumixer default="true">true</usevdpaumixer>
+
+<usevdpaumpeg2 default="true">true</usevdpaumpeg2>
+
+<usevdpaumpeg4 default="true">false</usevdpaumpeg4>
+
+<usevdpauvc1 default="true">true</usevdpauvc1>
+
+<usevideotoolbox default="true">true</usevideotoolbox>
+
+</videoplayer>
+
+
+-<videoscreen>
+
+<blankdisplays default="true">false</blankdisplays>
+
+<fakefullscreen default="true">true</fakefullscreen>
+
+<limitedrange default="true">false</limitedrange>
+
+<monitor default="true">Default</monitor>
+
+<preferedstereoscopicmode default="true">100</preferedstereoscopicmode>
+
+<resolution default="true">16</resolution>
+
+<screen default="true">0</screen>
+
+<screenmode default="true">DESKTOP</screenmode>
+
+<stereoscopicmode default="true">0</stereoscopicmode>
+
+<vsync default="true">2</vsync>
+
+</videoscreen>
+
+
+-<weather>
+
+<addon>weather.yahoo</addon>
+
+<currentlocation default="true">1</currentlocation>
+
+</weather>
+
+
+-<window>
+
+<height default="true">480</height>
+
+<width default="true">720</width>
+
+</window>
+
+
+-<audio>
+
+<mute>false</mute>
+
+<fvolumelevel>1.000000</fvolumelevel>
+
+</audio>
+
+<resolutions/>
+
+
+-<defaultvideosettings>
+
+<deinterlacemode>1</deinterlacemode>
+
+<interlacemethod>1</interlacemethod>
+
+<scalingmethod>1</scalingmethod>
+
+<noisereduction>0.000000</noisereduction>
+
+<postprocess>false</postprocess>
+
+<sharpness>0.000000</sharpness>
+
+<viewmode>0</viewmode>
+
+<zoomamount>1.000000</zoomamount>
+
+<pixelratio>1.000000</pixelratio>
+
+<verticalshift>0.000000</verticalshift>
+
+<volumeamplification>0.000000</volumeamplification>
+
+<outputtoallspeakers>false</outputtoallspeakers>
+
+<showsubtitles>true</showsubtitles>
+
+<brightness>50.000000</brightness>
+
+<contrast>50.000000</contrast>
+
+<gamma>20.000000</gamma>
+
+<audiodelay>0.000000</audiodelay>
+
+<subtitledelay>0.000000</subtitledelay>
+
+<nonlinstretch>false</nonlinstretch>
+
+<stereomode>0</stereomode>
+
+</defaultvideosettings>
+
+
+-<skinsettings>
+
+<setting name="skin.confluence.Use_Startup_Playlist" type="bool">false</setting>
+
+<setting name="skin.confluence.UseCustomBackground" type="bool">true</setting>
+
+<setting name="skin.confluence.HideBackGroundFanart" type="bool">true</setting>
+
+<setting name="skin.confluence.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.confluence.ShowBackgroundVis" type="bool">false</setting>
+
+<setting name="skin.confluence.HomepageHideRecentlyAddedVideo" type="bool">false</setting>
+
+<setting name="skin.confluence.HomepageHideRecentlyAddedAlbums" type="bool">false</setting>
+
+<setting name="skin.confluence.homepageWeatherinfo" type="bool">false</setting>
+
+<setting name="skin.confluence.homepageMusicinfo" type="bool">false</setting>
+
+<setting name="skin.confluence.homepageVideoinfo" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoMovieButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoTVShowButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoWeatherButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoPicturesButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoVideosButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoMusicButton" type="bool">false</setting>
+
+<setting name="skin.confluence.HomeMenuNoProgramsButton" type="bool">false</setting>
+
+<setting name="skin.confluence.AutoScroll" type="bool">true</setting>
+
+<setting name="skin.confluence.FirstTimeRun" type="bool">true</setting>
+
+<setting name="skin.confluence.HideVisualizationFanart" type="bool">true</setting>
+
+<setting name="skin.confluence.HideFilenameFlagging" type="bool">false</setting>
+
+<setting name="skin.confluence.View508HideInfo" type="bool">false</setting>
+
+<setting name="skin.confluence.Show_SlideShow_Paused" type="bool">false</setting>
+
+<setting name="skin.confluence.WindowedTrailer" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.Fanart" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.ShowBackgroundVis" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.lowermainmenu" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.Detach.RSS" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.Musicinfo" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.Disable.Videoinfo" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.mainmenuicons" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.biggergap" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Enable.AutoScroll" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.VideoInfoPlotToggle" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.Disable.NextAired" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.KioskMode.Enabled" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.HorizontalListNav" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Enable.SlimList" type="bool">true</setting>
+
+<setting name="skin.aeon.nox.5.Enable.HideRatings" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.UnwatchedIcon" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.nohighlist" type="bool">false</setting>
+
+<setting name="skin.amber.DebugInfo" type="bool">false</setting>
+
+<setting name="skin.amber.DebugGrid" type="bool">false</setting>
+
+<setting name="skin.amber.LayoutGrid" type="bool">false</setting>
+
+<setting name="skin.amber.FullscreenMusic" type="bool">true</setting>
+
+<setting name="skin.amber.plexbmc" type="bool">false</setting>
+
+<setting name="skin.amber.Hide_Watched_Marks" type="bool">false</setting>
+
+<setting name="skin.amber.Hide_Unwatched_Marks" type="bool">false</setting>
+
+<setting name="skin.amber.AutoScroll" type="bool">true</setting>
+
+<setting name="skin.amber.Show_Player" type="bool">true</setting>
+
+<setting name="skin.amber.ArtistView" type="bool">false</setting>
+
+<setting name="skin.amber.HideEPGLogos" type="bool">false</setting>
+
+<setting name="skin.amber.holiday" type="bool">false</setting>
+
+<setting name="skin.amber.Pictures.Hide" type="bool">true</setting>
+
+<setting name="skin.amber.Addons.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.Videos.Hide" type="bool">true</setting>
+
+<setting name="skin.amber.Movies.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.TVShows.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.Music.Hide" type="bool">true</setting>
+
+<setting name="skin.amber.Clips.Show" type="bool">false</setting>
+
+<setting name="skin.amber.Concerts.Show" type="bool">false</setting>
+
+<setting name="skin.amber.Favourites.Hide" type="bool">true</setting>
+
+<setting name="skin.amber.DVD.Hide" type="bool">true</setting>
+
+<setting name="skin.amber.Weather.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.QuitMenu_Show_Settings" type="bool">false</setting>
+
+<setting name="skin.amber.Quit.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.Hide.RecentlyAdded" type="bool">true</setting>
+
+<setting name="skin.amber.Hide.Favourites" type="bool">true</setting>
+
+<setting name="skin.amber.Shelf.Addons" type="bool">true</setting>
+
+<setting name="skin.amber.VerticalHome" type="bool">false</setting>
+
+<setting name="skin.amber.Home_DefaultBG" type="bool">false</setting>
+
+<setting name="skin.amber.Show_Library_Count" type="bool">false</setting>
+
+<setting name="skin.amber.QuitMenu_Hide_Quit" type="bool">false</setting>
+
+<setting name="skin.amber.QuitMenu_Hide_Sleep" type="bool">false</setting>
+
+<setting name="skin.amber.QuitMenu_Hide_Shutdown" type="bool">true</setting>
+
+<setting name="skin.amber.QuitMenu_Hide_Reboot" type="bool">true</setting>
+
+<setting name="skin.amber.TVTunes.Enabled" type="bool">false</setting>
+
+<setting name="skin.amber.Use_Artist_Slideshow" type="bool">false</setting>
+
+<setting name="skin.amber.Use.FastStart" type="bool">false</setting>
+
+<setting name="skin.amber.Hide.LibraryUpdate.Button" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.0.title" type="bool">false</setting>
+
+<setting name="skin.amber.Hide.Shared" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.1.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.2.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.3.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.4.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.5.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.6.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.7.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.8.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.9.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.10.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.11.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.12.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.13.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.14.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.15.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.16.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.17.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.18.title" type="bool">false</setting>
+
+<setting name="skin.amber.hide.plexbmc.19.title" type="bool">false</setting>
+
+<setting name="skin.amber.Channels.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.Queue.Hide" type="bool">false</setting>
+
+<setting name="skin.amber.Shelf.Delay" type="bool">false</setting>
+
+<setting name="skin.amber.Addons2" type="bool">false</setting>
+
+<setting name="skin.amber.Addons4" type="bool">false</setting>
+
+<setting name="skin.amber.Addons5" type="bool">false</setting>
+
+<setting name="skin.amber.Addons3" type="bool">false</setting>
+
+<setting name="skin.amber.Movies1" type="bool">false</setting>
+
+<setting name="skin.amber.Movies2" type="bool">false</setting>
+
+<setting name="skin.amber.Movies4" type="bool">false</setting>
+
+<setting name="skin.amber.Movies5" type="bool">false</setting>
+
+<setting name="skin.amber.Music2" type="bool">false</setting>
+
+<setting name="skin.amber.Music1" type="bool">false</setting>
+
+<setting name="skin.amber.Music4" type="bool">false</setting>
+
+<setting name="skin.amber.Music5" type="bool">false</setting>
+
+<setting name="skin.amber.52_Episodes_UseFanart" type="bool">false</setting>
+
+<setting name="skin.amber.52_Movies_UseFanart" type="bool">false</setting>
+
+<setting name="skin.amber.52_TV_UseFanart" type="bool">false</setting>
+
+<setting name="skin.amber.52_Albums_UseFanart" type="bool">false</setting>
+
+<setting name="skin.amber.52_Artists_UseFanart" type="bool">false</setting>
+
+<setting name="skin.amber.53_UseBanners" type="bool">false</setting>
+
+<setting name="skin.amber.53_BigGrid" type="bool">false</setting>
+
+<setting name="skin.amber.Music_Info" type="bool">false</setting>
+
+<setting name="skin.amber.Episodes_Info" type="bool">false</setting>
+
+<setting name="skin.amber.Posters_Info" type="bool">false</setting>
+
+<setting name="skin.amber.55_UseBanners" type="bool">false</setting>
+
+<setting name="skin.amber.55_SmallFanart" type="bool">false</setting>
+
+<setting name="skin.amber.Episodes_Gallery" type="bool">false</setting>
+
+<setting name="skin.amber.Music_Gallery" type="bool">false</setting>
+
+<setting name="skin.amber.Posters_Gallery" type="bool">false</setting>
+
+<setting name="skin.amber.PVR_Enabled" type="bool">false</setting>
+
+<setting name="skin.amber.MusicPlayingFanart" type="bool">false</setting>
+
+<setting name="skin.amber.Shelf.Favourites" type="bool">false</setting>
+
+<setting name="skin.neon.no_weather_info" type="bool">false</setting>
+
+<setting name="skin.neon.no_global_clock" type="bool">false</setting>
+
+<setting name="skin.neon.conditions_weather_backdrop" type="bool">false</setting>
+
+<setting name="skin.neon.ShowWeatherFanart" type="bool">false</setting>
+
+<setting name="skin.neon.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.neon.ShowMusicVis" type="bool">false</setting>
+
+<setting name="skin.neon.DebugGrid" type="bool">false</setting>
+
+<setting name="skin.neon.HideDebugInfo" type="bool">false</setting>
+
+<setting name="skin.neon.LockViews" type="bool">false</setting>
+
+<setting name="skin.neon.zune_music" type="bool">false</setting>
+
+<setting name="skin.neon.big_trailer" type="bool">false</setting>
+
+<setting name="skin.neon.DeactivateTvTunes" type="bool">false</setting>
+
+<setting name="skin.neon.DeactivateTvShowNextAired" type="bool">false</setting>
+
+<setting name="skin.neon.Use_Startup_Playlist" type="bool">false</setting>
+
+<setting name="skin.neon.Use_Intro_Movie" type="bool">false</setting>
+
+<setting name="skin.neon.homepageHideRecentlyAdded" type="bool">false</setting>
+
+<setting name="skin.neon.random_items" type="bool">false</setting>
+
+<setting name="skin.neon.BigRecentTV" type="bool">false</setting>
+
+<setting name="skin.neon.BigRecentMovie" type="bool">false</setting>
+
+<setting name="skin.neon.noprefersong" type="bool">false</setting>
+
+<setting name="skin.neon.homepageHideTodayTV" type="bool">false</setting>
+
+<setting name="skin.neon.global_bottomline" type="bool">false</setting>
+
+<setting name="skin.neon.HomepageWeatherWidget" type="bool">false</setting>
+
+<setting name="skin.neon.animation_bg" type="bool">false</setting>
+
+<setting name="skin.neon.animation_bg_global" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoVideosButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoMoviesButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoHDMoviesButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoTVShowsButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeNoMenuLiveTV" type="bool">false</setting>
+
+<setting name="skin.neon.HomeNoMenuRadio" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoMusicButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoPicturesButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoTVGuide" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoScriptsButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNofavouritesButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoWeatherButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoShutdownButton" type="bool">false</setting>
+
+<setting name="skin.neon.signout" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoSettingsButton" type="bool">false</setting>
+
+<setting name="skin.neon.HomeMenuNoPlayDVDButton" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom4" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom5" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom6" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom7" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom8" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom9" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom10" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom3" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom2" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom1" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton1" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton2" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton3" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton4" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton5" type="bool">false</setting>
+
+<setting name="skin.neon.HomeScriptButton6" type="bool">false</setting>
+
+<setting name="skin.neon.TVPosters" type="bool">false</setting>
+
+<setting name="skin.neon.TVBanners" type="bool">false</setting>
+
+<setting name="skin.neon.HideVideoCase" type="bool">false</setting>
+
+<setting name="skin.neon.autoscroll" type="bool">false</setting>
+
+<setting name="skin.neon.no_media_flags" type="bool">false</setting>
+
+<setting name="skin.neon.DisableMovieOverlays" type="bool">false</setting>
+
+<setting name="skin.neon.DisableTvOverlays" type="bool">false</setting>
+
+<setting name="skin.neon.ShowPathInInfo" type="bool">false</setting>
+
+<setting name="skin.neon.genrefanart" type="bool">false</setting>
+
+<setting name="skin.neon.landscape_jpg" type="bool">false</setting>
+
+<setting name="skin.neon.extrafanart" type="bool">false</setting>
+
+<setting name="skin.neon.usethumbs" type="bool">false</setting>
+
+<setting name="skin.neon.FanartNoVisualisation" type="bool">false</setting>
+
+<setting name="skin.neon.DarkFullscreenMusicPlayback" type="bool">false</setting>
+
+<setting name="skin.neon.vis_music_backdrops" type="bool">false</setting>
+
+<setting name="skin.neon.vis_photos_backdrops" type="bool">false</setting>
+
+<setting name="skin.neon.FullscreenJukebox" type="bool">false</setting>
+
+<setting name="skin.neon.Artist_Slideshow" type="bool">false</setting>
+
+<setting name="skin.neon.show_lyrics" type="bool">false</setting>
+
+<setting name="skin.neon.no_16x9" type="bool">false</setting>
+
+<setting name="skin.neon.no_BannerPanel" type="bool">false</setting>
+
+<setting name="skin.neon.no_Episode" type="bool">false</setting>
+
+<setting name="skin.neon.no_Panel" type="bool">false</setting>
+
+<setting name="skin.neon.no_Landscape" type="bool">false</setting>
+
+<setting name="skin.neon.no_3DLandscape" type="bool">false</setting>
+
+<setting name="skin.neon.no_LandPanel" type="bool">false</setting>
+
+<setting name="skin.neon.no_Poster" type="bool">false</setting>
+
+<setting name="skin.neon.no_Showcase" type="bool">false</setting>
+
+<setting name="skin.neon.no_Wall" type="bool">false</setting>
+
+<setting name="skin.neon.no_WallPanel" type="bool">false</setting>
+
+<setting name="skin.neon.no_Landscape_Fanart" type="bool">false</setting>
+
+<setting name="skin.neon.no_Logo" type="bool">false</setting>
+
+<setting name="skin.neon.no_3dbanner" type="bool">false</setting>
+
+<setting name="skin.neon.no_Slide" type="bool">false</setting>
+
+<setting name="skin.neon.no_Jukebox" type="bool">false</setting>
+
+<setting name="skin.neon.no_MusicShowcase" type="bool">false</setting>
+
+<setting name="skin.neon.no_MusicWall" type="bool">false</setting>
+
+<setting name="skin.neon.no_Shelf" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub2" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub3" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub4" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub5" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub6" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom6_Play" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub7" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom7_Play" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub8" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom8_Play" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub9" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom9_Play" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub10" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom10_Play" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom11" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub11" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom12" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub12" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom13" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub13" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom14" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub14" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom15" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub15" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom16" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub16" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom17" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub17" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Custom18" type="bool">false</setting>
+
+<setting name="skin.neon.Menu_Movies_Sub18" type="bool">false</setting>
+
+<setting name="skin.neon.horizontal_bottom_align" type="bool">false</setting>
+
+<setting name="skin.neon.LibraryUpdated" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ClearArt" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.UseCustomBackground" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HideBackGroundFanart" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.SeparateBackdrops" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ShowBackgroundVis" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.FanartInHome" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.DebugStatus" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.DebugGrid" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HideDebugInfo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ShowTrailer" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ExtraFanart" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ActivateTvTunes" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.SeasonFanart" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.CdArtVis" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ArtistSlide" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.CDWallNoVisualisation" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Use_Startup_Playlist" type="bool">true</setting>
+
+<setting name="skin.moddedconfluence.4.CommonPageCount" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.AutoScroll" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.IntroMovie" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.KioskMode" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Show_SlideShow_Paused" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.WindowedTrailer" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HideFilenameFlagging" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.homepageVideoinfo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.homepageMusicinfo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.homepageWeatherinfo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.NoArrow" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomepageHideRecentlyAddedVideo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomepageHideRecentlyAddedAlbums" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.NoLogo" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.NoFloor" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.LowerMenu" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.CdArtHome" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.customstartupfocus" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.WeatherWidget" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.ActivateSearch" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.DatabaseStats" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.NoSlide" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.FanCode" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoVideosButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoMoviesButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoHDMoviesButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoMusicVideosButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoDocuButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoTVShowsButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoMusicButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoPicturesButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoProgramsButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HomeMenuNoWeatherButton" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HideVisualizationFanart" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom1" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Movies_Sub1" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom2" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Movies_Sub2" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom2" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Movies_Sub2" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom3" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Movies_Sub3" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom4" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Movies_Sub4" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.lastfm" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.lastfmtag" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.favourite1" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.favourite2" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom8" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom9" type="bool">false</setting>
+
+<setting name="skin.moddedconfluence.4.View509HideInfo" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.gotofullscreen" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.originaltitle" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nopausedlabel" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.custommode" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.keepaspect" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.animation_panscan" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.visanimation_panscan" type="bool">true</setting>
+
+<setting name="skin.aeonmq6.ontvtunes" type="bool">true</setting>
+
+<setting name="skin.aeonmq6.fix0" type="bool">true</setting>
+
+<setting name="skin.aeonmq6.higherwidgets" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.highermainmenu" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.mainmenufixedlist" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.submode" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.animation_homepanscan" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.randommoviebg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.randomtvshowbg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.randomconcertbg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.randommusicbg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.weathercondition_external" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.externalvideogenrefanart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.externalmusicgenrefanart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.livebg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.homevisvideo" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.noliveplaylistbg" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.homevisaudio" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nohomecdart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nonowplayingpanel" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nonexttracks" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.noallowscroll" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nodetailspanel" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.kiosk" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.kiosksmart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.kioskcode" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nooverlays" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.randomthemes" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.weathericons" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.weathericons_external" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.highertotals" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nohometotals" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.highertime" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nohometime" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.mainmenuglass" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.touchscreen" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.fullscreentrailer" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.rcbgames" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.viewposter_programs" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.viewlowlist_programs" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.viewwall_programs" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.viewwide_programs" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.viewpanel_programs" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nomediaflags" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.nopreferclearart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.noartrightlistvideo" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.slimrightlistvideo" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.slimrightlistmusic" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.norightlistvideocase" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.norightlistdiscart" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.externalvideogenreicon" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.externalmusicgenreicon" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.norightlistaudiocase" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.noscrollletters" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.panelnoborder" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.trailers" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.playlists" type="bool">false</setting>
+
+<setting name="skin.aeonmq6.games" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.UseCustomBackground" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.HideBackGroundFanart" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.ShowBackgroundVis" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.DebugGrid" type="bool">false</setting>
+
+<setting name="skin.confluence.hwy2015.HideDebugInfo" type="bool">false</setting>
+
+<setting name="skin.confluence.ShowWeatherFanart" type="bool">false</setting>
+
+<setting name="skin.confluence.WeatherScript_Enable" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.ShowPlotCast" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.infobar_hidesignalinfo" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.infobar_hidetuners" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.infobar_hidetencrypt" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.Enable.AnimatedBackgrounds" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.Disable.Fanart" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.hidevizbehindfanart" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.Disable.ShowBackgroundVis" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.Disable.ShowBackgroundVideo" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.bannerinfofloor" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.alternatebiglistlayout" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.silvo.hidetopbar" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Disable.Resumable" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.ShowWeatherFanart" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.HideVisualizationFanart" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.BigAssLabel" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Enable.VizInfo" type="bool">false</setting>
+
+<setting name="skin.aeon.nox.5.Enable.VizPersistent" type="bool">false</setting>
+
+<setting name="skin.confluence.CustomBackgroundPath" type="string">special://home\media\SKINDEFAULT.jpg</setting>
+
+<setting name="skin.confluence.HomeVideosButton1" type="string">plugin.video.salts</setting>
+
+<setting name="skin.confluence.HomeVideosButton2" type="string">plugin.video.theroyalwe</setting>
+
+<setting name="skin.confluence.HomeVideosButton3" type="string">plugin.video.velocity</setting>
+
+<setting name="skin.confluence.HomeVideosButton4" type="string">plugin.video.1channel</setting>
+
+<setting name="skin.confluence.HomeVideosButton5" type="string">plugin.video.phstreams</setting>
+
+<setting name="skin.confluence.HomeMusicButton1" type="string">plugin.audio.radio_de</setting>
+
+<setting name="skin.confluence.HomeMusicButton2" type="string">plugin.video.itunes_podcasts</setting>
+
+<setting name="skin.confluence.HomeMusicButton3" type="string">plugin.video.XBMCKaraoke</setting>
+
+<setting name="skin.confluence.HomeMusicButton4" type="string">plugin.audio.radioreference</setting>
+
+<setting name="skin.confluence.HomeMusicButton5" type="string">plugin.audio.soundcloud</setting>
+
+<setting name="skin.confluence.HomePictureButton1" type="string"/>
+
+<setting name="skin.confluence.HomePictureButton2" type="string"/>
+
+<setting name="skin.confluence.HomePictureButton3" type="string"/>
+
+<setting name="skin.confluence.HomePictureButton4" type="string"/>
+
+<setting name="skin.confluence.HomePictureButton5" type="string"/>
+
+<setting name="skin.confluence.HomeProgramButton1" type="string">script.navi-x</setting>
+
+<setting name="skin.confluence.HomeProgramButton2" type="string">plugin.program.addoninstaller</setting>
+
+<setting name="skin.confluence.HomeProgramButton3" type="string">plugin.video.xbmchubmaintenance</setting>
+
+<setting name="skin.confluence.HomeProgramButton4" type="string">plugin.program.dickowizard</setting>
+
+<setting name="skin.confluence.HomeProgramButton5" type="string"/>
+
+<setting name="skin.confluence.Startup_Playlist_Path" type="string">C:\Users\Toots\Desktop\FireStick\intro.mp4</setting>
+
+<setting name="skin.confluence.LyricScript_Path" type="string"/>
+
+<setting name="skin.confluence.HomeProgramButton6" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideoGenreFanartPath" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicGenreFanartPath" type="string"/>
+
+<setting name="skin.aeon.nox.5.System.Fallback" type="string">C:\Users\Toots\Desktop\FireStick\Default.jpg</setting>
+
+<setting name="skin.aeon.nox.5.WeatherFanartDir" type="string">http://aeon-nox-background-packs.googlecode.com/svn/trunk/weather-fanart/default/</setting>
+
+<setting name="skin.aeon.nox.5.InfoPanel.Delay" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.Label" type="string">Kids</setting>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\kids2.jpg</setting>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.phstreams/?name=TNPB&url=http://zenica.watchkodi.com/maindir/main.xml&audio=0&image=http://zenica.watchkodi.com/MyIcon.png&fanart=special://home/addons\plugin.video.phstreams\fanart.jpg&playable=false&tvshow=0&content=0&action=ndmode",return)</setting>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.PicturesHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.Label" type="string">Music</setting>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\music3.jpg</setting>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.Path" type="string">ActivateWindow(10502,"plugin://plugin.audio.mp3streams",return)</setting>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.Label" type="string">Movies</setting>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\movie2.jpg</setting>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.genesis/?action=movieNavigator",return)</setting>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.MovieHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.Label" type="string">TV Shows</setting>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\tvshow2.jpg</setting>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.genesis/?action=tvNavigator",return)</setting>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.TVShowHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.Label" type="string">Live Tv</setting>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\livetv2.jpg</setting>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.LiveTVHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.Label" type="string">Sports</setting>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\sports1.jpg</setting>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.SportsDevil",return)</setting>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom1HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.Label" type="string">18+</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\18+.jpg</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.Icon" type="string">views/list/DefaultVideo.png</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.uwc",return)</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.SubMenu" type="string">x2</setting>
+
+<setting name="skin.aeon.nox.5.Custom2HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.Label" type="string">Super Favs</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\superfavs.jpg</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.Icon" type="string">special://skin/extras/icons/Favorites.png</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.Path" type="string">ActivateWindow(10025,"plugin://plugin.program.super.favourites",return)</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.SubMenu" type="string">x8</setting>
+
+<setting name="skin.aeon.nox.5.Custom3HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.Label" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.BGType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom4HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.Label" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.BGType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom5HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.Label" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.BGType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.Custom6HomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.Label" type="string">CUSTOM2</setting>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.Icon" type="string">special://skin/extras/icons/Customize.png</setting>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.BGType" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.SubMenu" type="string">x202</setting>
+
+<setting name="skin.aeon.nox.5.VideosHomeItem.Disable" type="string">True</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.Label" type="string">System</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\Settings.jpg</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.Icon" type="string">views/list/DefaultAddonService.png</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.Path" type="string">ActivateWindow(Settings)</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.SubMenu" type="string">x5</setting>
+
+<setting name="skin.aeon.nox.5.ProgramsHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.Label" type="string">CUSTOM3</setting>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.Icon" type="string">special://skin/extras/icons/Customize.png</setting>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.BGType" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.SubMenu" type="string">x303</setting>
+
+<setting name="skin.aeon.nox.5.SettingsHomeItem.Disable" type="string">True</setting>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.Label" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\Quit.jpg</setting>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.ShutdownHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.Label" type="string">Add-ons</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\Addon.jpg</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.Icon" type="string">views/list/DefaultProgram.png</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.Path" type="string">ActivateWindow(Videos,Addons,return)</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.SubMenu" type="string">x1</setting>
+
+<setting name="skin.aeon.nox.5.FavoritesHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.Label" type="string">Weather</setting>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\Weather1.jpg</setting>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.Path" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.WeatherHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.Label" type="string">Concerts</setting>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.MultiFanart" type="string">C:\Users\Toots\Desktop\FireStick\concert.jpg</setting>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.Icon" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.Path" type="string">ActivateWindow(10502,"plugin://plugin.video.concertarchive",return)</setting>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.SubMenu" type="string"/>
+
+<setting name="skin.aeon.nox.5.MusicVideoHomeItem.Disable" type="string"/>
+
+<setting name="skin.aeon.nox.5.53.Movies.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.53.TVShows.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.53.Seasons.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.53.Sets.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.Movies.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.TVShows.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.Seasons.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.Episodes.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.Sets.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Movies.Fallback" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.TVShows.Fallback" type="string">2</setting>
+
+<setting name="skin.aeon.nox.5.Videos.Fallback" type="string">3</setting>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.BGType" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.MultiFanart" type="string"/>
+
+<setting name="skin.aeon.nox.5.Music.Fallback" type="string">4</setting>
+
+<setting name="skin.confluence.Home_Custom_Back_TV_Folder" type="string"/>
+
+<setting name="skin.amber.Settings.Background" type="string">C:\Users\Toots\Desktop\FireStick\Settings.jpg</setting>
+
+<setting name="skin.amber.LyricPath" type="string"/>
+
+<setting name="skin.amber.CustomMovie.1.Path" type="string"/>
+
+<setting name="skin.amber.CustomMovie.1.Label" type="string"/>
+
+<setting name="skin.amber.movie_entries" type="string"/>
+
+<setting name="skin.amber.CustomTV.1.Path" type="string"/>
+
+<setting name="skin.amber.CustomTV.1.Label" type="string"/>
+
+<setting name="skin.amber.tv_entries" type="string"/>
+
+<setting name="skin.amber.CustomHome.1.Label" type="string"/>
+
+<setting name="skin.amber.CustomHome.1.Background" type="string">C:\Users\Toots\Desktop\FireStick\live tv.jpg</setting>
+
+<setting name="skin.amber.CustomHome.1.Path" type="string"/>
+
+<setting name="skin.amber.Pictures.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.2.Label" type="string">TV Shows</setting>
+
+<setting name="skin.amber.CustomHome.2.Background" type="string">C:\Users\Toots\Desktop\FireStick\Tv Shows.jpg</setting>
+
+<setting name="skin.amber.CustomHome.2.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.genesis/?action=tvNavigator",return)</setting>
+
+<setting name="skin.amber.Addons.Background" type="string">C:\Users\Toots\Desktop\FireStick\Addon.jpg</setting>
+
+<setting name="skin.amber.CustomHome.3.Label" type="string">Movies</setting>
+
+<setting name="skin.amber.CustomHome.3.Background" type="string">C:\Users\Toots\Desktop\FireStick\movie.jpg</setting>
+
+<setting name="skin.amber.CustomHome.3.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.genesis/",return)</setting>
+
+<setting name="skin.amber.Videos.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.4.Label" type="string">Kids</setting>
+
+<setting name="skin.amber.CustomHome.4.Background" type="string">C:\Users\Toots\Desktop\FireStick\Kids.jpg</setting>
+
+<setting name="skin.amber.CustomHome.4.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.phstreams/?action=ndmode&audio=0&content=0&fanart=http%3a%2f%2fs6.postimg.org%2f4ph8mo5q9%2fBackdrop.png&image=http%3a%2f%2fs6.postimg.org%2fmvzjgehoh%2fKids.png&name=%5bCOLOR%20orangered%5dK%5b%2fCOLOR%5d%5bCOLOR%20white%5dIDS%5b%2fCOLOR%5d&playable=false&tvshow=0&url=http%3a%2f%2fzenica.watchkodi.com%2fDirectories%2fMain%2520Directory%2fKids%2520Main.xml",return)</setting>
+
+<setting name="skin.amber.Movies.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.5.Label" type="string">Sports</setting>
+
+<setting name="skin.amber.CustomHome.5.Background" type="string">C:\Users\Toots\Desktop\FireStick\sports1.jpg</setting>
+
+<setting name="skin.amber.CustomHome.5.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.SportsDevil/",return)</setting>
+
+<setting name="skin.amber.TVShows.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.6.Label" type="string">18+</setting>
+
+<setting name="skin.amber.CustomHome.6.Background" type="string">C:\Users\Toots\Desktop\FireStick\18+.jpg</setting>
+
+<setting name="skin.amber.CustomHome.6.Path" type="string">ActivateWindow(10025,"plugin://plugin.video.uwc/",return)</setting>
+
+<setting name="skin.amber.Music.Background" type="string">C:\Users\Toots\Desktop\FireStick\Music.jpg</setting>
+
+<setting name="skin.amber.CustomHome.7.Label" type="string">Music</setting>
+
+<setting name="skin.amber.CustomHome.7.Background" type="string">C:\Users\Toots\Desktop\FireStick\music2.jpg</setting>
+
+<setting name="skin.amber.CustomHome.7.Path" type="string">ActivateWindow(10501,"plugin://plugin.audio.mp3streams/",return)</setting>
+
+<setting name="skin.amber.Clips.Background" type="string"/>
+
+<setting name="skin.amber.Concerts.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.8.Label" type="string"/>
+
+<setting name="skin.amber.CustomHome.8.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.8.Path" type="string"/>
+
+<setting name="skin.amber.Favorites.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.9.Label" type="string"/>
+
+<setting name="skin.amber.CustomHome.9.Background" type="string"/>
+
+<setting name="skin.amber.CustomHome.9.Path" type="string"/>
+
+<setting name="skin.amber.DVD.Background" type="string"/>
+
+<setting name="skin.amber.Quit.Background" type="string">C:\Users\Toots\Desktop\FireStick\Quit.jpg</setting>
+
+<setting name="skin.amber.Default.Background" type="string">C:\Users\Toots\Desktop\FireStick\Default.jpg</setting>
+
+<setting name="skin.amber.Favourites.Background" type="string">C:\Users\Toots\Desktop\FireStick\favorites2.png</setting>
+
+<setting name="skin.amber.Weather.Background" type="string">C:\Users\Toots\Desktop\FireStick\Weather1.jpg</setting>
+
+<setting name="skin.amber.Pvr.Background" type="string">C:\Users\Toots\Desktop\FireStick\live tv.jpg</setting>
+
+<setting name="skin.amber.Plexbmc.0.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.1.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.2.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.3.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.4.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.5.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.6.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.7.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.8.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.9.Background" type="string"/>
+
+<setting name="skin.amber.Plexbmc.10.Background" type="string"/>
+
+<setting name="skin.amber.ShelfAddons.1.Label" type="string">plugin.video.mdfubar</setting>
+
+<setting name="skin.amber.ShelfAddons.2.Label" type="string">script.navi-x</setting>
+
+<setting name="skin.amber.ShelfAddons.3.Label" type="string">plugin.video.phstreams</setting>
+
+<setting name="skin.amber.ShelfAddons.4.Label" type="string">plugin.video.velocity</setting>
+
+<setting name="skin.amber.ShelfAddons.5.Label" type="string">plugin.video.ukturk</setting>
+
+<setting name="skin.amber.ShelfAddons.6.Label" type="string">plugin.video.kodisraelliveconcert</setting>
+
+<setting name="skin.amber.ShelfAddons.7.Label" type="string">plugin.video.md123movies</setting>
+
+<setting name="skin.amber.ShelfAddons.8.Label" type="string">plugin.video.F.T.V</setting>
+
+<setting name="skin.amber.ShelfAddons.9.Label" type="string">plugin.video.icefilms</setting>
+
+<setting name="skin.amber.ShelfAddons.10.Label" type="string">plugin.program.super.favourites</setting>
+
+<setting name="skin.amber.shutdown" type="string"/>
+
+<setting name="skin.amber.CustomHome.1.List" type="string"/>
+
+<setting name="skin.amber.CustomHome.1.Icon" type="string"/>
+
+<setting name="skin.amber.CustomHome.2.List" type="string">plugin://plugin.video.genesis/?action=tvNavigator</setting>
+
+<setting name="skin.amber.CustomHome.2.Icon" type="string">special://home/addons\plugin.video.genesis\resources\media\gone\tvshows.jpg</setting>
+
+<setting name="skin.amber.CustomHome.3.List" type="string">plugin://plugin.video.genesis/</setting>
+
+<setting name="skin.amber.CustomHome.3.Icon" type="string">special://home/addons\plugin.video.genesis\icon.png</setting>
+
+<setting name="skin.amber.CustomHome.4.List" type="string">plugin://plugin.video.phstreams/?action=ndmode&audio=0&content=0&fanart=http%3a%2f%2fs6.postimg.org%2f4ph8mo5q9%2fBackdrop.png&image=http%3a%2f%2fs6.postimg.org%2fmvzjgehoh%2fKids.png&name=%5bCOLOR%20orangered%5dK%5b%2fCOLOR%5d%5bCOLOR%20white%5dIDS%5b%2fCOLOR%5d&playable=false&tvshow=0&url=http%3a%2f%2fzenica.watchkodi.com%2fDirectories%2fMain%2520Directory%2fKids%2520Main.xml</setting>
+
+<setting name="skin.amber.CustomHome.4.Icon" type="string">http://s6.postimg.org/mvzjgehoh/Kids.png</setting>
+
+<setting name="skin.amber.CustomHome.5.List" type="string">plugin://plugin.video.SportsDevil/</setting>
+
+<setting name="skin.amber.CustomHome.5.Icon" type="string">special://home/addons\plugin.video.SportsDevil\icon.png</setting>
+
+<setting name="skin.amber.CustomHome.6.List" type="string">plugin://plugin.video.uwc/</setting>
+
+<setting name="skin.amber.CustomHome.6.Icon" type="string">special://home/addons\plugin.video.uwc\icon.png</setting>
+
+<setting name="skin.amber.CustomHome.7.List" type="string">plugin://plugin.audio.mp3streams/</setting>
+
+<setting name="skin.amber.CustomHome.7.Icon" type="string">special://home/addons\plugin.audio.mp3streams\icon.png</setting>
+
+<setting name="skin.neon.CustomSettingsFolder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_Weather_Folder1" type="string"/>
+
+<setting name="skin.neon.WeatherFanartDir" type="string"/>
+
+<setting name="skin.neon.CustomMusicFolder" type="string"/>
+
+<setting name="skin.neon.Startup_Playlist_Path" type="string"/>
+
+<setting name="skin.neon.Home_Custom_RSS_Logo" type="string"/>
+
+<setting name="skin.neon.ShutdownOption" type="string"/>
+
+<setting name="skin.neon.Menu_Custom4_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom4_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom5_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom5_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom6_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom6_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom7_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom7_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom8_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom8_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom9_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom9_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom10_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom10_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom3_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom3_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom2_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom2_Folder" type="string"/>
+
+<setting name="skin.neon.Menu_Custom1_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom1_Folder" type="string"/>
+
+<setting name="skin.neon.CustomVideosFolder" type="string"/>
+
+<setting name="skin.neon.CustomMoviesFolder" type="string"/>
+
+<setting name="skin.neon.CustomGamesFolder" type="string"/>
+
+<setting name="skin.neon.CustomTVShowsFolder" type="string"/>
+
+<setting name="skin.neon.CustomPicturesFolder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_Weather_Folder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_Scripts_Folder" type="string"/>
+
+<setting name="skin.neon.CustomfavouritesFolder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_Shutdown_Folder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_TV_Folder" type="string"/>
+
+<setting name="skin.neon.Home_Custom_Back_Radio_Folder" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton1_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton1_Path" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton2_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton2_Path" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton3_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton3_Path" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton4_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton4_Path" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton5_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton5_Path" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton6_label" type="string"/>
+
+<setting name="skin.neon.HomeScriptButton6_Path" type="string"/>
+
+<setting name="skin.neon.LyricScript_Path" type="string"/>
+
+<setting name="skin.neon.Music_Folder_Path" type="string"/>
+
+<setting name="skin.neon.MoviesCustom" type="string"/>
+
+<setting name="skin.neon.Menu_Custom1_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom2_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom3_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom4_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom5_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom6_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom7_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom8_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom9_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom10_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom11_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom11_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom12_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom12_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom13_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom13_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom14_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom14_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom15_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom15_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom16_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom16_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom17_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom17_Path" type="string"/>
+
+<setting name="skin.neon.Menu_Custom18_Label" type="string"/>
+
+<setting name="skin.neon.Menu_Custom18_Path" type="string"/>
+
+<setting name="skin.neon.CustomHDMoviesFolder" type="string"/>
+
+<setting name="skin.neon.CustomScriptsFolder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.CustomBackgroundPath" type="string"/>
+
+<setting name="skin.moddedconfluence.4.CDWall_Folder_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Startup_Playlist_Path" type="string">C:\Users\Toots\Desktop\FireStick\intro.mp4</setting>
+
+<setting name="skin.moddedconfluence.4.CustomFocusOffset" type="string"/>
+
+<setting name="skin.moddedconfluence.4.WeatherFanartDir" type="string"/>
+
+<setting name="skin.moddedconfluence.4.LyricScript_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.SubtitleScript_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeVideosButton1" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeVideosButton2" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeVideosButton3" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeVideosButton4" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeVideosButton5" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton1" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton2" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton3" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton4" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton5" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeProgramButton6" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeMusicButton1" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeMusicButton2" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeMusicButton3" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeMusicButton4" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomeMusicButton5" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomePictureButton1" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomePictureButton2" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomePictureButton3" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomePictureButton4" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HomePictureButton5" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom1_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom1_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom2_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom2_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.CustomFavourite1.Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.CustomFavourite2.Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom2_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom2_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom3_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom3_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom4_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.HDMenu_Custom4_Path" type="string"/>
+
+<setting name="skin.moddedconfluence.4.lastfmtag_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Video_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Movies_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_TVShow_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_TV_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_RADIO_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_HD_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Docu_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Music_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_MusicVideos_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Favourite1_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Favourite2_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom1_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom2_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Pictures_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Programs_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Weather_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Settings_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Addons_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom8_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Fav_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom8_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Menu_Custom9_Label" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_Fav2_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Home_Custom_Back_PlayDisc_Folder" type="string"/>
+
+<setting name="skin.moddedconfluence.4.Music_Folder_Path" type="string"/>
+
+<setting name="skin.aeonmq6.colortexture" type="string">sky</setting>
+
+<setting name="skin.aeonmq6.glasstexture" type="string">75</setting>
+
+<setting name="skin.aeonmq6.colorheader" type="string">sky</setting>
+
+<setting name="skin.aeonmq6.videofurniture" type="string">full</setting>
+
+<setting name="skin.aeonmq6.colorflags" type="string">white</setting>
+
+<setting name="skin.aeonmq6.colorfloor" type="string">deepblue</setting>
+
+<setting name="skin.aeonmq6.cdart_seconds" type="string">4000</setting>
+
+<setting name="skin.aeonmq6.discvideo" type="string">0</setting>
+
+<setting name="skin.aeonmq6.customvideodisc" type="string"/>
+
+<setting name="skin.aeonmq6.theme" type="string">colors</setting>
+
+<setting name="skin.aeonmq6.extrapack" type="string">special://userdata/addon_data/skin.aeonmq6.extrapack/</setting>
+
+<setting name="skin.aeonmq6.CustomMyTheme" type="string"/>
+
+<setting name="skin.aeonmq6.animationwindow" type="string">zoom</setting>
+
+<setting name="skin.aeonmq6.defaultsettings" type="string">1</setting>
+
+<setting name="skin.aeonmq6.font" type="string">font1</setting>
+
+<setting name="skin.aeonmq6.idcolortexture" type="string">105</setting>
+
+<setting name="skin.aeonmq6.idglasstexture" type="string">253</setting>
+
+<setting name="skin.aeonmq6.idcolorheader" type="string">130</setting>
+
+<setting name="skin.aeonmq6.colorfont" type="string">white</setting>
+
+<setting name="skin.aeonmq6.idcolorfont" type="string">321</setting>
+
+<setting name="skin.aeonmq6.colorstyle" type="string">nocolor</setting>
+
+<setting name="skin.aeonmq6.idcolorstyle" type="string">351</setting>
+
+<setting name="skin.aeonmq6.glassstyle" type="string">75</setting>
+
+<setting name="skin.aeonmq6.idglassstyle" type="string">264</setting>
+
+<setting name="skin.aeonmq6.glasspanel" type="string">75</setting>
+
+<setting name="skin.aeonmq6.idcolorflags" type="string">472</setting>
+
+<setting name="skin.aeonmq6.idcolorfloor" type="string">505</setting>
+
+<setting name="skin.aeonmq6.glassfloor" type="string">55</setting>
+
+<setting name="skin.aeonmq6.idglassfloor" type="string">556</setting>
+
+<setting name="skin.aeonmq6.wallglass" type="string">05</setting>
+
+<setting name="skin.aeonmq6.bannerglass" type="string">05</setting>
+
+<setting name="skin.aeonmq6.style" type="string">metal</setting>
+
+<setting name="skin.aeonmq6.mainmenustyle" type="string">metal.png</setting>
+
+<setting name="skin.aeonmq6.stylewatched" type="string">0</setting>
+
+<setting name="skin.aeonmq6.colorwatched" type="string">red</setting>
+
+<setting name="skin.aeonmq6.idcolorwatched" type="string">221</setting>
+
+<setting name="skin.aeonmq6.widgetsnumber" type="string">12</setting>
+
+<setting name="skin.aeonmq6.widgetsmode" type="string">on</setting>
+
+<setting name="skin.aeonmq6.widgets_seconds" type="string">3</setting>
+
+<setting name="skin.aeonmq6.widemovies.art" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.widetvshows.art" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.wideconcerts.art" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.viewpanel.art" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.case_default" type="string">deepblue</setting>
+
+<setting name="skin.aeonmq6.case_bluray" type="string">sky</setting>
+
+<setting name="skin.aeonmq6.case_3dbd" type="string">orange</setting>
+
+<setting name="skin.aeonmq6.case_webtv" type="string">red</setting>
+
+<setting name="skin.aeonmq6.case_hdtv" type="string">violet</setting>
+
+<setting name="skin.aeonmq6.case_dvd" type="string">grey</setting>
+
+<setting name="skin.aeonmq6.case_set" type="string">blood</setting>
+
+<setting name="skin.aeonmq6.case_4k" type="string">chocolate</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_default" type="string">171</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_bluray" type="string">170</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_3dbd" type="string">182</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_webtv" type="string">176</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_hdtv" type="string">185</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_dvd" type="string">188</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_set" type="string">177</setting>
+
+<setting name="skin.aeonmq6.idcasecolor_4k" type="string">179</setting>
+
+<setting name="skin.aeonmq6.glasscase" type="string">65</setting>
+
+<setting name="skin.aeonmq6.idglasscase" type="string">604</setting>
+
+<setting name="skin.aeonmq6.codec_default" type="string">default</setting>
+
+<setting name="skin.aeonmq6.idcodec_default" type="string">201</setting>
+
+<setting name="skin.aeonmq6.codec_bluray" type="string">bluray</setting>
+
+<setting name="skin.aeonmq6.idcodec_bluray" type="string">202</setting>
+
+<setting name="skin.aeonmq6.codec_3dbd" type="string">3dbd</setting>
+
+<setting name="skin.aeonmq6.idcodec_3dbd" type="string">203</setting>
+
+<setting name="skin.aeonmq6.codec_webtv" type="string">webtv</setting>
+
+<setting name="skin.aeonmq6.idcodec_webtv" type="string">204</setting>
+
+<setting name="skin.aeonmq6.codec_hdtv" type="string">hdtv</setting>
+
+<setting name="skin.aeonmq6.idcodec_hdtv" type="string">205</setting>
+
+<setting name="skin.aeonmq6.codec_dvd" type="string">dvd</setting>
+
+<setting name="skin.aeonmq6.idcodec_dvd" type="string">206</setting>
+
+<setting name="skin.aeonmq6.codec_set" type="string">set</setting>
+
+<setting name="skin.aeonmq6.idcodec_set" type="string">207</setting>
+
+<setting name="skin.aeonmq6.codec_4k" type="string">4k</setting>
+
+<setting name="skin.aeonmq6.idcodec_4k" type="string">208</setting>
+
+<setting name="skin.aeonmq6.panel_seconds" type="string">3</setting>
+
+<setting name="skin.aeonmq6.gamevideo_seconds" type="string">2</setting>
+
+<setting name="skin.aeonmq6.games_video" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.moviesfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.tvshowsfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.seasonsfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.episodesfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.musicvideosfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.musicfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.programsfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.gamesfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.setsfanart" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.videogenrefanart" type="string">genre</setting>
+
+<setting name="skin.aeonmq6.musicgenrefanart" type="string">genre</setting>
+
+<setting name="skin.aeonmq6.multiplexlayout" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.multiplexgameslayout" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.showcaselayout" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.showcasevideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.landscapexlayout" type="string">fanart</setting>
+
+<setting name="skin.aeonmq6.multiplexvideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.multiplexgamespanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.glasslistvideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.showartvideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.showartvideogrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallvideogrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallvideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.wallmusicgrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallmusicpanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.wallprogramsgrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallprogramspanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.wallpicsgrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallpicspanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.wallgamesgrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.wallgamespanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.bannervideopanel" type="string">auto</setting>
+
+<setting name="skin.aeonmq6.panelvideogrid" type="string">default</setting>
+
+<setting name="skin.aeonmq6.PLInfoPanelMovies" type="string">infopanelmanual</setting>
+
+<setting name="skin.aeonmq6.PLInfoPanelTVShows" type="string">infopanelmanual</setting>
+
+<setting name="skin.aeonmq6.PLInfoPanelSeasons" type="string">infopanelmanual</setting>
+
+<setting name="skin.aeonmq6.PLInfoPanelEpisodes" type="string">infopanelmanual</setting>
+
+<setting name="skin.aeonmq6.PLInfoPanelSets" type="string">infopanelmanual</setting>
+
+<setting name="skin.aeonmq6.PosterLiteMovies" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.PosterLiteConcerts" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.PosterLiteTVShows" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.PosterLiteSeasons" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.PosterLiteEpisodes" type="string">landscape</setting>
+
+<setting name="skin.aeonmq6.PosterLiteSets" type="string">poster</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusMovies" type="string">noicon</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusConcerts" type="string">noicon</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusTVShows" type="string">banner</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusSeasons" type="string">banner</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusEpisodes" type="string">banner</setting>
+
+<setting name="skin.aeonmq6.PosterLitePlusSets" type="string">noicon</setting>
+
+<setting name="skin.aeonmq6.weather_mode" type="string">7days</setting>
+
+<setting name="skin.aeonmq6.weatherconditionbg" type="string">northamerica</setting>
+
+<setting name="skin.aeonmq6.lyricscript_path" type="string">script.cu.lrclyrics</setting>
+
+<setting name="skin.aeonmq6.vis_bg" type="string">slideshowmosaicmix</setting>
+
+<setting name="skin.aeonmq6.vis_layout" type="string">style3</setting>
+
+<setting name="skin.aeonmq6.games_link" type="string">rcb</setting>
+
+<setting name="skin.aeonmq6.audiofurniture" type="string">full</setting>
+
+<setting name="skin.aeonmq6.homebg_seconds" type="string">5000</setting>
+
+<setting name="skin.aeonmq6.discaudio" type="string">0</setting>
+
+<setting name="skin.aeonmq6.mediaflags" type="string">on</setting>
+
+<setting name="skin.aeonmq6.menu1.master" type="string">movies</setting>
+
+<setting name="skin.aeonmq6.menu1.action" type="string">ActivateWindow(videos,movietitles,return)</setting>
+
+<setting name="skin.aeonmq6.menu2.master" type="string">tvshows</setting>
+
+<setting name="skin.aeonmq6.menu2.action" type="string">ActivateWindow(videos,tvshowtitles,return)</setting>
+
+<setting name="skin.aeonmq6.menu3.master" type="string">concerts</setting>
+
+<setting name="skin.aeonmq6.menu3.action" type="string">ActivateWindow(videos,musicvideotitles,return)</setting>
+
+<setting name="skin.aeonmq6.menu4.master" type="string">music</setting>
+
+<setting name="skin.aeonmq6.menu4.action" type="string">ActivateWindow(music)</setting>
+
+<setting name="skin.aeonmq6.menu5.master" type="string">livetv</setting>
+
+<setting name="skin.aeonmq6.menu5.action" type="string">ActivateWindow(TVChannels)</setting>
+
+<setting name="skin.aeonmq6.menu6.master" type="string">radio</setting>
+
+<setting name="skin.aeonmq6.menu6.action" type="string">ActivateWindow(RadioChannels)</setting>
+
+<setting name="skin.aeonmq6.menu7.master" type="string">favourites</setting>
+
+<setting name="skin.aeonmq6.menu7.action" type="string">ActivateWindow(favourites)</setting>
+
+<setting name="skin.aeonmq6.menu8.master" type="string">games</setting>
+
+<setting name="skin.aeonmq6.menu8.action" type="string">RunScript(script.games.rom.collection.browser)</setting>
+
+<setting name="skin.aeonmq6.menu10.master" type="string">pictures</setting>
+
+<setting name="skin.aeonmq6.menu10.action" type="string">ActivateWindow(pictures)</setting>
+
+<setting name="skin.aeonmq6.menu11.master" type="string">weather</setting>
+
+<setting name="skin.aeonmq6.menu11.widgets" type="string">weather</setting>
+
+<setting name="skin.aeonmq6.menu11.action" type="string">ActivateWindow(weather)</setting>
+
+<setting name="skin.aeonmq6.menu12.master" type="string">settings</setting>
+
+<setting name="skin.aeonmq6.menu12.widgets" type="string">settings</setting>
+
+<setting name="skin.aeonmq6.menu12.action" type="string">ActivateWindow(settings)</setting>
+
+<setting name="skin.aeonmq6.menu13.master" type="string">shutdown</setting>
+
+<setting name="skin.aeonmq6.menu13.action" type="string">XBMC.ShutDown()</setting>
+
+<setting name="skin.aeonmq6.menu14.master" type="string">extras</setting>
+
+<setting name="skin.aeonmq6.menu14.action" type="string">SetFocus(5100)</setting>
+
+<setting name="skin.aeonmq6.menu9.master" type="string">programs</setting>
+
+<setting name="skin.aeonmq6.menu9.action" type="string">ActivateWindow(Programs,Addons,return)</setting>
+
+<setting name="skin.aeonmq6.menu0101.master" type="string">movierecently</setting>
+
+<setting name="skin.aeonmq6.menu0101.action" type="string">ActivateWindow(videos,recentlyaddedmovies,return)</setting>
+
+<setting name="skin.aeonmq6.menu0102.master" type="string">moviesets</setting>
+
+<setting name="skin.aeonmq6.menu0102.action" type="string">ActivateWindow(videos,moviesets,return)</setting>
+
+<setting name="skin.aeonmq6.menu0103.master" type="string">moviegenres</setting>
+
+<setting name="skin.aeonmq6.menu0103.action" type="string">ActivateWindow(videos,moviegenres,return)</setting>
+
+<setting name="skin.aeonmq6.menu0104.master" type="string">movieyears</setting>
+
+<setting name="skin.aeonmq6.menu0104.action" type="string">ActivateWindow(videos,movieyears,return)</setting>
+
+<setting name="skin.aeonmq6.menu0105.master" type="string">movieactors</setting>
+
+<setting name="skin.aeonmq6.menu0105.action" type="string">ActivateWindow(videos,movieactors,return)</setting>
+
+<setting name="skin.aeonmq6.menu0106.master" type="string">moviedirectors</setting>
+
+<setting name="skin.aeonmq6.menu0106.action" type="string">ActivateWindow(videos,moviedirectors,return)</setting>
+
+<setting name="skin.aeonmq6.menu0107.master" type="string">moviestudios</setting>
+
+<setting name="skin.aeonmq6.menu0107.action" type="string">ActivateWindow(videos,moviestudios,return)</setting>
+
+<setting name="skin.aeonmq6.menu0108.master" type="string">moviecountries</setting>
+
+<setting name="skin.aeonmq6.menu0108.action" type="string">ActivateWindow(videos,moviecountries,return)</setting>
+
+<setting name="skin.aeonmq6.menu0109.master" type="string">movietags</setting>
+
+<setting name="skin.aeonmq6.menu0109.action" type="string">ActivateWindow(videos,movietags,return)</setting>
+
+<setting name="skin.aeonmq6.menu0110.master" type="string">videocleanlibrary</setting>
+
+<setting name="skin.aeonmq6.menu0110.action" type="string">CleanLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0111.master" type="string">videoupdatelibrary</setting>
+
+<setting name="skin.aeonmq6.menu0111.action" type="string">UpdateLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0112.master" type="string">videofiles</setting>
+
+<setting name="skin.aeonmq6.menu0112.action" type="string">ActivateWindow(videos,files)</setting>
+
+<setting name="skin.aeonmq6.menu0113.master" type="string">globalsearch</setting>
+
+<setting name="skin.aeonmq6.menu0113.action" type="string">RunScript(script.globalsearch)</setting>
+
+<setting name="skin.aeonmq6.menu0201.master" type="string">tvshowrecently</setting>
+
+<setting name="skin.aeonmq6.menu0201.action" type="string">ActivateWindow(videos,recentlyaddedepisodes,return)</setting>
+
+<setting name="skin.aeonmq6.menu0202.master" type="string">tvguide</setting>
+
+<setting name="skin.aeonmq6.menu0202.action" type="string">RunScript(script.tv.show.next.aired)</setting>
+
+<setting name="skin.aeonmq6.menu0203.master" type="string">tvshowgenres</setting>
+
+<setting name="skin.aeonmq6.menu0203.action" type="string">ActivateWindow(videos,tvshowgenres,return)</setting>
+
+<setting name="skin.aeonmq6.menu0204.master" type="string">tvshowyears</setting>
+
+<setting name="skin.aeonmq6.menu0204.action" type="string">ActivateWindow(videos,tvshowyears,return)</setting>
+
+<setting name="skin.aeonmq6.menu0205.master" type="string">tvshowactors</setting>
+
+<setting name="skin.aeonmq6.menu0205.action" type="string">ActivateWindow(videos,tvshowactors,return)</setting>
+
+<setting name="skin.aeonmq6.menu0206.master" type="string">tvshowstudios</setting>
+
+<setting name="skin.aeonmq6.menu0206.action" type="string">ActivateWindow(videos,tvshowstudios,return)</setting>
+
+<setting name="skin.aeonmq6.menu0207.master" type="string">videocleanlibrary</setting>
+
+<setting name="skin.aeonmq6.menu0207.action" type="string">CleanLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0208.master" type="string">videoupdatelibrary</setting>
+
+<setting name="skin.aeonmq6.menu0208.action" type="string">UpdateLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0209.master" type="string">videofiles</setting>
+
+<setting name="skin.aeonmq6.menu0209.action" type="string">ActivateWindow(videos,files)</setting>
+
+<setting name="skin.aeonmq6.menu0210.master" type="string">globalsearch</setting>
+
+<setting name="skin.aeonmq6.menu0210.action" type="string">RunScript(script.globalsearch)</setting>
+
+<setting name="skin.aeonmq6.menu0301.master" type="string">concertrecently</setting>
+
+<setting name="skin.aeonmq6.menu0301.action" type="string">ActivateWindow(videos,recentlyaddedmusicvideos,return)</setting>
+
+<setting name="skin.aeonmq6.menu0302.master" type="string">concertgenres</setting>
+
+<setting name="skin.aeonmq6.menu0302.action" type="string">ActivateWindow(videos,musicvideogenres,return)</setting>
+
+<setting name="skin.aeonmq6.menu0303.master" type="string">concertyears</setting>
+
+<setting name="skin.aeonmq6.menu0303.action" type="string">ActivateWindow(videos,musicvideoyears,return)</setting>
+
+<setting name="skin.aeonmq6.menu0304.master" type="string">concertartists</setting>
+
+<setting name="skin.aeonmq6.menu0304.action" type="string">ActivateWindow(videos,musicvideoartists,return)</setting>
+
+<setting name="skin.aeonmq6.menu0305.master" type="string">concertalbums</setting>
+
+<setting name="skin.aeonmq6.menu0305.action" type="string">ActivateWindow(videos,musicvideoalbums,return)</setting>
+
+<setting name="skin.aeonmq6.menu0306.master" type="string">concertdirectors</setting>
+
+<setting name="skin.aeonmq6.menu0306.action" type="string">ActivateWindow(videos,musicvideodirectors,return)</setting>
+
+<setting name="skin.aeonmq6.menu0307.master" type="string">concertstudios</setting>
+
+<setting name="skin.aeonmq6.menu0307.action" type="string">ActivateWindow(videos,musicvideostudios,return)</setting>
+
+<setting name="skin.aeonmq6.menu0308.master" type="string">videocleanlibrary</setting>
+
+<setting name="skin.aeonmq6.menu0308.action" type="string">CleanLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0309.master" type="string">videoupdatelibrary</setting>
+
+<setting name="skin.aeonmq6.menu0309.action" type="string">UpdateLibrary(video)</setting>
+
+<setting name="skin.aeonmq6.menu0310.master" type="string">videofiles</setting>
+
+<setting name="skin.aeonmq6.menu0310.action" type="string">ActivateWindow(videos,files)</setting>
+
+<setting name="skin.aeonmq6.menu0311.master" type="string">globalsearch</setting>
+
+<setting name="skin.aeonmq6.menu0311.action" type="string">RunScript(script.globalsearch)</setting>
+
+<setting name="skin.aeonmq6.menu0501.master" type="string">livetvchannels</setting>
+
+<setting name="skin.aeonmq6.menu0501.action" type="string">ActivateWindow(TVChannels)</setting>
+
+<setting name="skin.aeonmq6.menu0502.master" type="string">livetvepg</setting>
+
+<setting name="skin.aeonmq6.menu0502.action" type="string">ActivateWindow(TVGuide)</setting>
+
+<setting name="skin.aeonmq6.menu0503.master" type="string">livetvsearch</setting>
+
+<setting name="skin.aeonmq6.menu0503.action" type="string">ActivateWindow(TVSearch)</setting>
+
+<setting name="skin.aeonmq6.menu0504.master" type="string">livetvrecords</setting>
+
+<setting name="skin.aeonmq6.menu0504.action" type="string">ActivateWindow(TVRecordings)</setting>
+
+<setting name="skin.aeonmq6.menu0505.master" type="string">livetvtimers</setting>
+
+<setting name="skin.aeonmq6.menu0505.action" type="string">ActivateWindow(TVTimers)</setting>
+
+<setting name="skin.aeonmq6.menu0506.master" type="string">livetvsettings</setting>
+
+<setting name="skin.aeonmq6.menu0506.action" type="string">ActivateWindow(pvrsettings)</setting>
+
+<setting name="skin.aeonmq6.menu0401.master" type="string">musicrecentlyplayed</setting>
+
+<setting name="skin.aeonmq6.menu0401.action" type="string">ActivateWindow(musiclibrary,recentlyplayedalbums,return)</setting>
+
+<setting name="skin.aeonmq6.menu0402.master" type="string">musicrecently</setting>
+
+<setting name="skin.aeonmq6.menu0402.action" type="string">ActivateWindow(musiclibrary,recentlyaddedalbums,return)</setting>
+
+<setting name="skin.aeonmq6.menu0403.master" type="string">musicvideoclips</setting>
+
+<setting name="skin.aeonmq6.menu0403.action" type="string">ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&feed=search&search=,return)</setting>
+
+<setting name="skin.aeonmq6.menu0404.master" type="string">musicgenres</setting>
+
+<setting name="skin.aeonmq6.menu0404.action" type="string">ActivateWindow(musiclibrary,genres,return)</setting>
+
+<setting name="skin.aeonmq6.menu0405.master" type="string">musicplaylists</setting>
+
+<setting name="skin.aeonmq6.menu0405.action" type="string">ActivateWindow(musiclibrary,playlists,return)</setting>
+
+<setting name="skin.aeonmq6.menu0406.master" type="string">musicartists</setting>
+
+<setting name="skin.aeonmq6.menu0406.action" type="string">ActivateWindow(musiclibrary,artists,return)</setting>
+
+<setting name="skin.aeonmq6.menu0407.master" type="string">musicalbums</setting>
+
+<setting name="skin.aeonmq6.menu0407.action" type="string">ActivateWindow(musiclibrary,albums,return)</setting>
+
+<setting name="skin.aeonmq6.menu0408.master" type="string">musicsongs</setting>
+
+<setting name="skin.aeonmq6.menu0408.action" type="string">ActivateWindow(musiclibrary,songs,return)</setting>
+
+<setting name="skin.aeonmq6.menu0409.master" type="string">musicfiles</setting>
+
+<setting name="skin.aeonmq6.menu0409.action" type="string">ActivateWindow(musicfiles)</setting>
+
+<setting name="skin.aeonmq6.menu0410.master" type="string">musicpartymode</setting>
+
+<setting name="skin.aeonmq6.menu0410.action" type="string">PlayerControl(Partymode(music))</setting>
+
+<setting name="skin.aeonmq6.menu0411.master" type="string">musiccompilations</setting>
+
+<setting name="skin.aeonmq6.menu0411.action" type="string">ActivateWindow(musiclibrary,compilations,return)</setting>
+
+<setting name="skin.aeonmq6.menu0412.master" type="string">musictop100</setting>
+
+<setting name="skin.aeonmq6.menu0412.action" type="string">ActivateWindow(musiclibrary,top100,return)</setting>
+
+<setting name="skin.aeonmq6.menu0413.master" type="string">musiccleanlibrary</setting>
+
+<setting name="skin.aeonmq6.menu0413.action" type="string">CleanLibrary(music)</setting>
+
+<setting name="skin.aeonmq6.menu0414.master" type="string">musicupdatelibrary</setting>
+
+<setting name="skin.aeonmq6.menu0414.action" type="string">UpdateLibrary(music)</setting>
+
+<setting name="skin.aeonmq6.menu0415.master" type="string">globalsearch</setting>
+
+<setting name="skin.aeonmq6.menu0415.action" type="string">RunScript(script.globalsearch)</setting>
+
+<setting name="skin.aeonmq6.menu1001.master" type="string">weather36hour</setting>
+
+<setting name="skin.aeonmq6.menu1001.action" type="string">Skin.SetString(weather_mode,36hour)</setting>
+
+<setting name="skin.aeonmq6.menu1002.master" type="string">weatherweekend</setting>
+
+<setting name="skin.aeonmq6.menu1002.action" type="string">Skin.SetString(weather_mode,weekend)</setting>
+
+<setting name="skin.aeonmq6.menu1003.master" type="string">weather7days</setting>
+
+<setting name="skin.aeonmq6.menu1003.action" type="string">Skin.SetString(weather_mode,7days)</setting>
+
+<setting name="skin.aeonmq6.menu1004.master" type="string">weatheralerts</setting>
+
+<setting name="skin.aeonmq6.menu1004.action" type="string">Skin.SetString(weather_mode,alerts)</setting>
+
+<setting name="skin.aeonmq6.menu1005.master" type="string">weathersettings</setting>
+
+<setting name="skin.aeonmq6.menu1005.action" type="string">ActivateWindow(weathersettings)</setting>
+
+<setting name="skin.aeonmq6.menu1006.master" type="string">weathersettings</setting>
+
+<setting name="skin.aeonmq6.menu1006.action" type="string">ActivateWindow(6633)</setting>
+
+<setting name="skin.aeonmq6.menu1101.master" type="string">settingscustom</setting>
+
+<setting name="skin.aeonmq6.menu1101.action" type="string">ActivateWindow(6000)</setting>
+
+<setting name="skin.aeonmq6.menu1102.master" type="string">settingspresets</setting>
+
+<setting name="skin.aeonmq6.menu1102.action" type="string">ActivateWindow(6630)</setting>
+
+<setting name="skin.aeonmq6.menu1103.master" type="string">settingsskin</setting>
+
+<setting name="skin.aeonmq6.menu1103.action" type="string">ActivateWindow(skinsettings)</setting>
+
+<setting name="skin.aeonmq6.menu1104.master" type="string">settingsaddons</setting>
+
+<setting name="skin.aeonmq6.menu1104.action" type="string">ActivateWindow(addonbrowser)</setting>
+
+<setting name="skin.aeonmq6.menu1105.master" type="string">settingsaddonsprograms</setting>
+
+<setting name="skin.aeonmq6.menu1105.action" type="string">ActivateWindow(programs,addons,return)</setting>
+
+<setting name="skin.aeonmq6.menu1106.master" type="string">settingsaddonsvideo</setting>
+
+<setting name="skin.aeonmq6.menu1106.action" type="string">ActivateWindow(video,addons,return)</setting>
+
+<setting name="skin.aeonmq6.menu1107.master" type="string">settingsaddonsmusic</setting>
+
+<setting name="skin.aeonmq6.menu1107.action" type="string">ActivateWindow(music,addons,return)</setting>
+
+<setting name="skin.aeonmq6.menu1108.master" type="string">settingsaddonspictures</setting>
+
+<setting name="skin.aeonmq6.menu1108.action" type="string">ActivateWindow(pictures,addons,return)</setting>
+
+<setting name="skin.aeonmq6.menu1109.master" type="string">settingsfilemanager</setting>
+
+<setting name="skin.aeonmq6.menu1109.action" type="string">ActivateWindow(filemanager)</setting>
+
+<setting name="skin.aeonmq6.menu1110.master" type="string">settingssystem</setting>
+
+<setting name="skin.aeonmq6.menu1110.action" type="string">ActivateWindow(systeminfo)</setting>
+
+<setting name="skin.aeonmq6.menu1201.master" type="string">quit</setting>
+
+<setting name="skin.aeonmq6.menu1201.action" type="string">Quit</setting>
+
+<setting name="skin.aeonmq6.menu1202.master" type="string">powerdown</setting>
+
+<setting name="skin.aeonmq6.menu1202.action" type="string">Powerdown</setting>
+
+<setting name="skin.aeonmq6.menu1203.master" type="string">reboot</setting>
+
+<setting name="skin.aeonmq6.menu1203.action" type="string">Reboot</setting>
+
+<setting name="skin.aeonmq6.menu1204.master" type="string">suspend</setting>
+
+<setting name="skin.aeonmq6.menu1204.action" type="string">Suspend</setting>
+
+<setting name="skin.aeonmq6.menu1205.master" type="string">hibernate</setting>
+
+<setting name="skin.aeonmq6.menu1205.action" type="string">Hibernate</setting>
+
+<setting name="skin.aeonmq6.menu1206.master" type="string">timer</setting>
+
+<setting name="skin.aeonmq6.menu1206.action" type="string">XBMC.AlarmClock(shutdowntimer,XBMC.Powerdown())</setting>
+
+<setting name="skin.aeonmq6.menu1207.master" type="string">canceltimer</setting>
+
+<setting name="skin.aeonmq6.menu1207.action" type="string">XBMC.CancelAlarm(shutdowntimer)</setting>
+
+<setting name="skin.aeonmq6.menu1208.master" type="string">logoff)</setting>
+
+<setting name="skin.aeonmq6.menu1208.action" type="string">System.Logoff</setting>
+
+<setting name="skin.aeonmq6.mymenu1.widget" type="string"/>
+
+<setting name="skin.aeonmq6.mymenu2.widget" type="string"/>
+
+<setting name="skin.aeonmq6.mymenu3.widget" type="string"/>
+
+<setting name="skin.aeonmq6.mymenu4.widget" type="string"/>
+
+<setting name="skin.aeonmq6.mymenu5.widget" type="string"/>
+
+<setting name="skin.aeonmq6.CustomMusicLogoPath" type="string"/>
+
+<setting name="skin.aeonmq6.CustomWeatherConditionFolder" type="string"/>
+
+<setting name="skin.aeonmq6.CustomVideoGenreFanart" type="string"/>
+
+<setting name="skin.aeonmq6.CustomMusicGenreFanart" type="string"/>
+
+<setting name="skin.aeonmq6.customaudiodisc" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.path" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.label" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.master" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.defaultlabel" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.path" type="string"/>
+
+<setting name="skin.aeonmq6.widget1.labela" type="string"/>
+
+<setting name="skin.aeonmq6.widget1.labelb" type="string"/>
+
+<setting name="skin.aeonmq6.widget2.labela" type="string"/>
+
+<setting name="skin.aeonmq6.widget2.labelb" type="string"/>
+
+<setting name="skin.aeonmq6.widget1a" type="string"/>
+
+<setting name="skin.aeonmq6.widget1b" type="string"/>
+
+<setting name="skin.aeonmq6.widget2a" type="string"/>
+
+<setting name="skin.aeonmq6.widget2b" type="string"/>
+
+<setting name="skin.aeonmq6.CustomAnimatedIconFolder" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu1.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu2.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu3.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu4.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu5.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu6.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu7.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu8.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu9.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu10.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu11.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu12.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu13.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu14.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu15.action" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu16.action" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu17.action" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu18.action" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu19.action" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.bg" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.visible" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.subid" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.widgets" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.target" type="string"/>
+
+<setting name="skin.aeonmq6.menu20.action" type="string"/>
+
+<setting name="skin.aeonmq6.windowbg" type="string">special://skin/backgrounds/settings.jpg</setting>
+
+<setting name="skin.aeonmq6.CustomFallbackProgramsBG" type="string"/>
+
+<setting name="skin.aeonmq6.CustomVideoGenreIcon" type="string"/>
+
+<setting name="skin.aeonmq6.CustomMusicGenreIcon" type="string"/>
+
+<setting name="skin.aeonmq6.codestep" type="string"/>
+
+<setting name="skin.aeonmq6.settings.bg" type="string"/>
+
+<setting name="skin.aeonmq6.playlists" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomPointerSize" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomPointerPathNF" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomPointerPathFO" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomPointerPathDrag" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomPointerPathClick" type="string"/>
+
+<setting name="skin.confluence.hwy2015.CustomBackgroundPath" type="string"/>
+
+<setting name="skin.confluence.WeatherFanartDir" type="string"/>
+
+<setting name="skin.confluence.WeatherScript_Label" type="string"/>
+
+<setting name="skin.aeon.nox.silvo.VideoGenreFanartPath" type="string"/>
+
+<setting name="skin.aeon.nox.silvo.MusicGenreFanartPath" type="string"/>
+
+<setting name="skin.aeon.nox.silvo.System.Fallback" type="string"/>
+
+<setting name="skin.aeon.nox.silvo.WeatherFanartDir" type="string"/>
+
+<setting name="skin.aeon.nox.5." type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.LiveTV.Fallback" type="string">2</setting>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.Widget" type="string"/>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.WidgetLabel" type="string"/>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.WidgetType" type="string"/>
+
+<setting name="skin.aeon.nox.5.ItemToEdit.InfoLine" type="string"/>
+
+<setting name="skin.aeon.nox.5.Home_Custom_Back_TV_Folder" type="string"/>
+
+<setting name="skin.aeon.nox.5.Pictures.Fallback" type="string"/>
+
+<setting name="skin.aeon.nox.5.Overlay.Toggle" type="string">1</setting>
+
+<setting name="skin.aeon.nox.5.Weather.Fallback" type="string"/>
+
+<setting name="skin.aeon.nox.5.54.Albums.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.54.Artists.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.52.Artists.InfoPanel" type="string"/>
+
+<setting name="skin.aeon.nox.5.Viz.Background" type="string"/>
+
+<setting name="skin.aeon.nox.5.Apps.Fallback" type="string"/>
+
+</skinsettings>
+
+
+-<viewstates>
+
+
+-<musicfiles>
+
+<viewmode>720896</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</musicfiles>
+
+
+-<musiclastfm>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</musiclastfm>
+
+
+-<musicnavalbums>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</musicnavalbums>
+
+
+-<musicnavartists>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</musicnavartists>
+
+
+-<musicnavsongs>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</musicnavsongs>
+
+
+-<pictures>
+
+<viewmode>720896</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</pictures>
+
+
+-<programs>
+
+<viewmode>720896</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</programs>
+
+
+-<videofiles>
+
+<viewmode>720896</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videofiles>
+
+
+-<videonavactors>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavactors>
+
+
+-<videonavepisodes>
+
+<viewmode>720896</viewmode>
+
+<sortmethod>21</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavepisodes>
+
+
+-<videonavgenres>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavgenres>
+
+
+-<videonavmusicvideos>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavmusicvideos>
+
+
+-<videonavseasons>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavseasons>
+
+
+-<videonavtitles>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavtitles>
+
+
+-<videonavtvshows>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavtvshows>
+
+
+-<videonavyears>
+
+<viewmode>65536</viewmode>
+
+<sortmethod>1</sortmethod>
+
+<sortorder>1</sortorder>
+
+<sortattributes>0</sortattributes>
+
+</videonavyears>
+
+</viewstates>
+
+</settings>
